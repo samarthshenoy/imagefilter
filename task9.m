@@ -1,0 +1,12 @@
+imagepath='spider.jfif';
+mtimage=imread(imagepath);
+figure;
+imshow(mtimage);
+title('oi');
+ivector1=mtimage(:);
+ivector2=reshape(mtimage,1,[]);
+figure;
+subplot(2,1,1);
+stem(ivector1);
+subplot(2,1,2);
+stem(ivector1);
